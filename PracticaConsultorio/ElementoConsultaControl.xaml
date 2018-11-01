@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PracticaConsultorio"
-             mc:Ignorable="d" Height="225.941" Width="655.021">
+             mc:Ignorable="d" Height="225.941">
     <Grid Background="#FFFFD2D2">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
@@ -14,9 +14,9 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <TextBlock Grid.Column="0" Grid.Row="0">Sintomas</TextBlock>
-        <TextBlock Grid.Column="1" Grid.Row="0">Diagnostico</TextBlock>
-        <TextBlock Grid.Column="0" Grid.Row="1">Receta</TextBlock>
-        <TextBlock Grid.Column="1" Grid.Row="1">Fecha</TextBlock>
+        <TextBlock Name="lblSintomas" Grid.Column="0" Grid.Row="0">Sintomas</TextBlock>
+        <TextBlock Name="lblDiagnostico" Grid.Column="1" Grid.Row="0">Diagnostico</TextBlock>
+        <TextBlock Name="lblReceta" Grid.Column="0" Grid.Row="1">Receta</TextBlock>
+        <TextBlock Name="lblFecha" Grid.Column="1" Grid.Row="1">Fecha</TextBlock>
     </Grid>
 </UserControl>
